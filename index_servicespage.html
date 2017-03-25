@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+	<title>Paperhub Cafe: Service Central </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+	body, html {
+		height: 100%;
+		font-family: "Inconsolata", sans-serif;
+	}
+	.bgimg {
+		background-position: center;
+		background-size: cover;
+		baclground-oppacity:50%;
+		background-image: url("images/img_4544_edited.jpg");
+		min-height: 75%;
+	body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+	body {font-size:16px;}
+	.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+	.w3-half img:hover{opacity:1}	
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+		<div class="w3-top">
+			  <div class="w3-row w3-padding w3-black">
+				<div class="w3-col s3">
+				  <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
+				</div>
+				<div class="w3-col s3">
+				  <a href="index_cafepage.html" class="w3-button w3-block w3-black">CAFE</a>
+				</div>
+				<div class="w3-col s3">
+				  <a href="#home" class="w3-button w3-block w3-black">SERVICES</a>
+				</div>
+				<div class="w3-col s3">
+				  <a href="index_shoppage.html" class="w3-button w3-block w3-black">SHOP</a>
+				</div>
+			  </div>
+			</div>
+
+<!-- Header with image -->
+				<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+				  <div class="w3-display-bottomleft w3-center w3-padding-xlarge w3-hide-small">
+					<span class="w3-tag" >Open from 6:00 to 22:00</span>
+				  </div>
+				  <div class="w3-display-middle w3-center">
+					<span class="w3-text-white w3-animate-top" style="font-size:90px">Paperhub Cafe</span>
+				  </div>
+				  <div class="w3-display-bottomright w3-center w3-padding-xlarge">
+					<span class="w3-text-white">XXX Building, YYY Avenue, ZZZ City</span>
+				  </div>
+				</header>
+
+<!-- Add a background color and large text to the whole page -->
+			
+			<div class=" w3-large">
+			
+<!-- About Container -->
+			<div class="w3-container" id="here">
+			  <div class="w3-content" style="max-width:700px">
+				<h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide w3-padding-left w3-padding-right">SERVICES</span></h5>
+
+<!--Navigator Library/Computer-->				
+			  <div class="w3-row w3-padding w3-black">
+				<div class="w3-col s4">
+				  <a href="#library" class="w3-button w3-block w3-black">Library Services</a>
+				</div>
+				<div class="w3-col s4">
+				  <a href="#computer" class="w3-button w3-block w3-black">Computer Services</a>
+				</div>
+				<div class="w3-col s4">
+				  <a href="#time" class="w3-button w3-block w3-black">Facility Time</a>
+				</div>
+				</div>
+<!---End Navigator-->
+	
+		<p>Paperhub Cafe also has its library and computer station open for its customers. Students and casual readers are allowed to enter and use this facility. We also offer membership cards that would allow more perks to be used for our customers. Please visit <a href="index_shoppage.html"> Our Shop</a> for more info. 
+		</p>
+		<div class="w3-panel w3-leftbar w3-light-grey">
+			<p><i>"“Literature offers the thrill of minds of great clarity wrestling with the endless problems and delights of being human. To engage with them is to engage with oneself, and the lasting rewards are not confined to specific career paths.” </i></p>
+			<p>― Jonathan Stroud </p>
+	</div>
+	
+	 <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="images/1_cyj_4772.jpg" style="width:100%" onclick="onClick(this)" alt="library">
+      <img src="images/1408071322670.jpg" style="width:100%" onclick="onClick(this)" alt="books">
+      <img src="images/20150903173413-books-shop-fair-library-used-bookshelf-literature-study-textbooks.jpg" style="width:100%" onclick="onClick(this)" alt="books">
+    </div>
+
+    <div class="w3-half">
+      <img src="images/635841049393339322-1773368249_o-PILE-OF-BOOKS-facebook.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
+      <img src="images/BookMunch.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
+      <img src="images/Books-IFOA-2016-Tanja-Tiziana.jpg" style="width:100%" onclick="onClick(this)" alt="Scandinavian design">
+    </div>
+  </div>
+
+<!---HERE-->
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:10px;">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="library">
+    <h1 class="w3-jumbo"><b>The Library</b></h1>
+    <h2 class=" w3-text-black"id><b>See what we got ... </b></h2>
+    <hr style="width:100;border:100 solid black" class="w3-round">
+  </div>
+  
+ 
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">Ã—</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div class="w3-container"  style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-black"><b>Services.</b></h1>
+    <hr style="width:50px;border:5px solid gray" class="w3-round">
+    <p>Need some research reference for your school papers? No worries we got you covered</p>
+    <p>Paperhub cafe holds a remarkable collection of over one thousand books and periodicals and around 100 new volumes are added annually. It includes some astonishing rarities and a uniquely eclectic mix of titles. Local books and copies of research papers and thesis, journals, text books, current newspapers, and as well as foreign reading materials. Fiction and Non-fiction biographys and novels.
+	</p>
+  </div>
+  
+  <!-- Designers -->
+  <div class="w3-container" " style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-black"><b>Contributers.</b></h1>
+    <hr style="width:50px;border:5px solid gray" class="w3-round">
+    <p>Three of the founding students have collected and donated much of their own collections for the library, for what started as a small collection of foreign novels and old novelist classics quickly grew into something more worthy of this expansion. With the help of our friends and family, former students donating text books for  various subjects and courses from surgical, medical to the simple arts, to cooking.</p>
+   
+    <p><b>We hoped that you would appriciate and find the collection useful</b>:</p>
+  </div>
+
+    <br>
+	<br>
+<!--back to navigation--> <a href="#here">Back to top</a>
+	<br>
+	<br>
+
+	
+ <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="computer">
+    <h1 class="w3-jumbo"><b>Computer Corner</b></h1>
+    <h2 class=" w3-text-black"><b>See what we got ... </b></h2>
+    <hr style="width:100;border:100 solid black" class="w3-round">
+  </div>
+
+  <!-- Services -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-black"><b>Services.</b></h1>
+    <hr style="width:50px;border:5px solid gray" class="w3-round">
+    <p>Need a document edited? printed? need more resources ? we also have our computer corner to help you on that!</p>
+    <p>The facility is ready to use for everyone regardless of the status. Our hardware is equiped with document editing programs, and video, and audio and image editing applications Our images, videos, and music library also include royalty free resources ready for your project's needs.
+    </p>
+  </div>
+  
+    	<br>
+	<br>
+<!--back to navigation--> <a href="#here">Back to top</a>
+	<br>
+	<br>
+  
+<!--Schedule Javascript-->
+<!-- Menu Container -->
+<div class="w3-container" id="time">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Facility Hours</span></h5>
+  
+    <div class="w3-row w3-center w3-card-2 w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink">Library</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink">Computer</div>
+      </a>
+    </div>
+
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card-2">
+      <h5>Week days</h5>
+      <p class="w3-text-grey"> opens at 6:00 and closes at 22:00</p><br>
+	  <h5>Week ends</h5>
+      <p class="w3-text-grey"> opens at 8:00 and closes at 23:00</p><br>
+      
+	  <p> The library is open to all but only those who have purchased the standard or premium membership can access the ability to lend a book for an overnight borrowing. Please visit <a href="index_shoppage.html"> Our Shop</a> for more info. 
+		</p>
+      
+    </div>
+
+    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card-2">
+      <h5></h5>
+      <h5>Week days</h5>
+      <p class="w3-text-grey"> facility will open at 6:00 and closes at 20:00</p><br>
+	  <h5>Week ends</h5>
+      <p class="w3-text-grey"> facility and services will open at  9:00 and closes to 23:00</p><br>
+	  
+	  <p> The computer facility is open to use for all customers the fee will be ₱ 15 per hour. The wifi isn't available for regular and standard membership customers, Although we do offer VIP wifi services for our premium membership card holders. Please visit <a href="index_shoppage.html"> Our Shop</a> for more info. 
+		</p>
+    </div>
+				<div>
+					<img src="images/1_cyj_4772.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+				</div>
+
+</div>
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+<!--FOOTER-->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center"> 
+  <a href="index_socialmediapage.html" class="w3-hover-text-indigo"><i class="fa fa-facebook-official"></i></a>
+  <a href="index_socialmediapage.html" class="w3-hover-text-red"><i class="fa fa-pinterest-p"></i></a>
+  <a href="index_socialmediapage.html" class="w3-hover-text-light-blue"><i class="fa fa-twitter"></i></a>
+</footer>
+
+<!--end-->
+				
+
+
+
+</body>
+</html>
